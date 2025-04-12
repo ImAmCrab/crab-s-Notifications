@@ -1,32 +1,16 @@
-# crab's Notifier
-• This plugin, crab's Notfier, allows you to receive real-time notifications in your game when certain events occur, such as when players join or leave the lobby. It utilizes the Unity engine to display on-screen notifications, providing useful information without disrupting the gameplay.
+# ii's Stupid Template
+ii's Stupid Template is a mod menu template for Gorilla Tag with custom categories and the maximum amount of customization possible. This template is meant for more advanced users, so if you're a new menu creator, this could be difficult for you.
 
-# Features
-• Real-Time Notifications: Instantly notifies the player when a specific event occurs, such as when a player joins or leaves the game.
+## Do I need permission to use this?
+No, this template is free and public for anyone to use. You are welcome to utilize it for your projects, modify it to suit your needs, and share it with others. We believe in a collaborative and open community where resources are accessible to all.
 
-• Customizable Text: Supports rich text formatting to customize the appearance of notifications (e.g., different colors, bold, italics).
+---
 
-• Decaying Notifications: Notifications gradually fade out after a specified duration to keep the screen uncluttered.
+# Installation
 
-• Clear Notifications: Provides functions to clear all notifications or clear a specified number of past notifications.
-
-• Plugin Settings: Easily configurable plugin settings, such as enabling/disabling notifications, adjusting decay time, and modifying font size.
-
-# Installation Instructions
-
-• Steps to Install
-• Install BepInEx:
-
-• 1. Download the latest version of BepInEx from the official [BepInEx](https://github.com/BepInEx/BepInEx).
-
-• 2. Extract the contents into the root folder of your game.
-
-• 3. Download the Notification Notifier Plugin:
-
-• 4. Download the latest release of Notification Notifier Plugin from the repository (e.g., GitHub or wherever the plugin is hosted).
-
-• 5. Place the Plugin DLL:
-
-• 6. Copy the plugin’s .dll file into the BepInEx/plugins/directory of your game’s installation folder.
-
-• 7. Launch the Game: Start your game normally, and the plugin should be loaded automatically by BepInEx.
+- Download the source code from [here](https://github.com/iiDk-the-actual/iis.Stupid.Template/releases/latest)
+- Change your `<GamePath>` (Gorilla Tag directory) in `Directory.Build.props` if required
+- Change the menu name in `PluginInfo.cs`
+- Edit the menu visuals in `Menu/Settings.cs`
+- Add buttons in `Menu/Buttons.cs`
+- Build with `Ctrl` + `Shift` + `B`, it will get put in your plugins folder automatically
