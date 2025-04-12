@@ -13,4 +13,4 @@ Credits:
 1. crab
 2. crab again
 3. still... crab
-4. &. iidk for mod menu base and botification lib
+4. iiDK for mod menu base and notification lib
